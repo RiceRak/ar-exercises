@@ -3,8 +3,6 @@ require_relative '../setup'
 puts "Exercise 1"
 puts "----------"
 
-Store.delete_all
-
 # Your code goes below here ...
 
 store_burnaby = Store.create(name: "Burnaby", annual_revenue: 300000, mens_apparel: true, womens_apparel: true)
