@@ -8,3 +8,7 @@ puts "Exercise 5"
 puts "----------"
 
 # Your code goes here ...
+
+total_revenue = Store.sum(:annual_revenue)
+puts "Total revenue for all stores: $#{total_revenue}"
+
