@@ -9,3 +9,6 @@ puts "Exercise 6"
 puts "----------"
 
 # Your code goes here ...
+class Store < ActiveRecord::Base
+  has_many :employees
+end
