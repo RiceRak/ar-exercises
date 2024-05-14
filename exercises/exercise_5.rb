@@ -12,3 +12,7 @@ puts "----------"
 total_revenue = Store.sum(:annual_revenue)
 puts "Total revenue for all stores: $#{total_revenue}"
 
+
+average_revenue = Store.average(:annual_revenue)
+puts "Average annual revenue for all stores: $#{average_revenue}"
+
