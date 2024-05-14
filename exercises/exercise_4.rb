@@ -7,10 +7,10 @@ puts "Exercise 4"
 puts "----------"
 
 # Your code goes here ...
-store_surrey Store.create(name: "Surrey", annual_revenue: 224000, mens_apparel: false, womens_apparel: true)
+store_surrey = Store.create(name: "Surrey", annual_revenue: 224000, mens_apparel: false, womens_apparel: true)
 
-store_whistler Store.create(name: "Whistler", annual_revenue: 1900000, mens_apparel: true, womens_apparel: false)
+store_whistler = Store.create(name: "Whistler", annual_revenue: 1900000, mens_apparel: true, womens_apparel: false)
 
-store_yaletown Store.create(name: "Yaletown", annual_revenue: 430000, mens_apparel: true, womens_apparel: true)
+store_yaletown = Store.create(name: "Yaletown", annual_revenue: 430000, mens_apparel: true, womens_apparel: true)
 
 @mens_store = Store.where(mens_apparel: true)
